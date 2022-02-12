@@ -22,5 +22,15 @@ var str=`aye aye aye
 oh oh oh`
 console.log(str);
 
-var num=212;
+var num=4;
 console.log(`Half of ${num} is ${num/2}`);
+
+for(var i=0; i<num;i++){
+    let j=100;
+    let hello=1000;
+    if (i%2==0){
+        console.log(i);
+    }
+    
+}
+console.log(hello);
