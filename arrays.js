@@ -61,3 +61,10 @@ console.log("res of 2nd index");
 console.log(res[2]);
 console.log(array2d[1][2]);
 console.log(array2d[1][3]);//undefined
+console.log(array2d.length);//no.of rows in 2d arrays 
+console.log(array2d[0].length) // number of columns in 2d arrays
+//memory allocation in 2d
+//2d mein values kese daale
+array2d[1][1]=false;
+console.table(array2d);
+//directory
