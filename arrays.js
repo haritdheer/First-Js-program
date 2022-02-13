@@ -53,4 +53,8 @@ let array2d = [
 ];
 console.log(array2d);
 console.table(array2d);
+let res=array2d[1];
 console.log(array2d[1][2]);
+console.log(res);
+console.log(res[2]);
+console.log(array2d[1][0]);
