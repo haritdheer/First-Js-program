@@ -51,10 +51,13 @@ let array2d = [
     [4, 5, 6],
     [7, 8, 9]
 ];
-console.log(array2d);
-console.table(array2d);
+console.log(array2d);//prints 2d array
+console.table(array2d);//prints table of 2d array
 let res=array2d[1];
+console.log("printing of res array");
 console.log(array2d[1][2]);
 console.log(res);
+console.log("res of 2nd index");
 console.log(res[2]);
-console.log(array2d[1][0]);
+console.log(array2d[1][2]);
+console.log(array2d[1][3]);//undefined
