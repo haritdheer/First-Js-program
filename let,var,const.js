@@ -3,13 +3,15 @@
 // let b = 100;
 // console.log(b);
 
-let b=10;
-{
+// 
+
+function outer(){
     var a=10;
-    let b=20;
-    const c=30;
-    console.log(a);
-    console.log(b);
-    console.log(c);
+    function inner(){
+        console.log(a);
+    }
+    return inner;
 }
-console.log(b);
+var z=outer();
+console.log(z + "");
+z();
